@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.35.0 - 2026/04/10
+* MariaDB version updated to [11.4.10](https://mariadb.com/docs/release-notes/community-server/11.4/11.4.10)
+  * See https://mariadb.com/docs/release-notes/community-server/11.4/what-is-mariadb-114
+* sidecar images updated
+* `maria-back-me-up` updated to `11.4-20260409091116`, based on 11.4 mariadb image
+* chart version bumped
+
 ## v0.34.0 - 2026/04/01
 * remove unneeded privileges from the `backup` user
 * add `replace_grants` user option: when `true`, revokes all existing privileges before re-granting
